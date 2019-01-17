@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A001C09421EEFC8A00C3808C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A001C09321EEFC8A00C3808C /* AppDelegate.m */; };
+		A001C09721EEFC8A00C3808C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001C09621EEFC8A00C3808C /* ViewController.m */; };
+		A001C09A21EEFC8A00C3808C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001C09821EEFC8A00C3808C /* Main.storyboard */; };
+		A001C09C21EEFC8B00C3808C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A001C09B21EEFC8B00C3808C /* Assets.xcassets */; };
+		A001C09F21EEFC8B00C3808C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001C09D21EEFC8B00C3808C /* LaunchScreen.storyboard */; };
+		A001C0A221EEFC8B00C3808C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A001C0A121EEFC8B00C3808C /* main.m */; };
+		A001C0AB21EEFD6900C3808C /* WJAudioRecorderController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001C0AA21EEFD6900C3808C /* WJAudioRecorderController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A001C08F21EEFC8A00C3808C /* WJAudioRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJAudioRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001C09221EEFC8A00C3808C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A001C09321EEFC8A00C3808C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A001C09521EEFC8A00C3808C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A001C09621EEFC8A00C3808C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A001C09921EEFC8A00C3808C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A001C09B21EEFC8B00C3808C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A001C09E21EEFC8B00C3808C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A001C0A021EEFC8B00C3808C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A001C0A121EEFC8B00C3808C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A001C0A921EEFD6900C3808C /* WJAudioRecorderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJAudioRecorderController.h; sourceTree = "<group>"; };
+		A001C0AA21EEFD6900C3808C /* WJAudioRecorderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJAudioRecorderController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A001C08C21EEFC8A00C3808C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A001C08621EEFC8900C3808C = {
+			isa = PBXGroup;
+			children = (
+				A001C09121EEFC8A00C3808C /* WJAudioRecorder */,
+				A001C09021EEFC8A00C3808C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A001C09021EEFC8A00C3808C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A001C08F21EEFC8A00C3808C /* WJAudioRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A001C09121EEFC8A00C3808C /* WJAudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				A001C0A821EEFD3B00C3808C /* Controller */,
+				A001C09221EEFC8A00C3808C /* AppDelegate.h */,
+				A001C09321EEFC8A00C3808C /* AppDelegate.m */,
+				A001C09521EEFC8A00C3808C /* ViewController.h */,
+				A001C09621EEFC8A00C3808C /* ViewController.m */,
+				A001C09821EEFC8A00C3808C /* Main.storyboard */,
+				A001C09B21EEFC8B00C3808C /* Assets.xcassets */,
+				A001C09D21EEFC8B00C3808C /* LaunchScreen.storyboard */,
+				A001C0A021EEFC8B00C3808C /* Info.plist */,
+				A001C0A121EEFC8B00C3808C /* main.m */,
+			);
+			path = WJAudioRecorder;
+			sourceTree = "<group>";
+		};
+		A001C0A821EEFD3B00C3808C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A001C0A921EEFD6900C3808C /* WJAudioRecorderController.h */,
+				A001C0AA21EEFD6900C3808C /* WJAudioRecorderController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A001C08E21EEFC8A00C3808C /* WJAudioRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A001C0A521EEFC8B00C3808C /* Build configuration list for PBXNativeTarget "WJAudioRecorder" */;
+			buildPhases = (
+				A001C08B21EEFC8A00C3808C /* Sources */,
+				A001C08C21EEFC8A00C3808C /* Frameworks */,
+				A001C08D21EEFC8A00C3808C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJAudioRecorder;
+			productName = WJAudioRecorder;
+			productReference = A001C08F21EEFC8A00C3808C /* WJAudioRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A001C08721EEFC8A00C3808C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = wangjie;
+				TargetAttributes = {
+					A001C08E21EEFC8A00C3808C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A001C08A21EEFC8A00C3808C /* Build configuration list for PBXProject "WJAudioRecorder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A001C08621EEFC8900C3808C;
+			productRefGroup = A001C09021EEFC8A00C3808C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A001C08E21EEFC8A00C3808C /* WJAudioRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A001C08D21EEFC8A00C3808C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001C09F21EEFC8B00C3808C /* LaunchScreen.storyboard in Resources */,
+				A001C09C21EEFC8B00C3808C /* Assets.xcassets in Resources */,
+				A001C09A21EEFC8A00C3808C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A001C08B21EEFC8A00C3808C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001C09721EEFC8A00C3808C /* ViewController.m in Sources */,
+				A001C0AB21EEFD6900C3808C /* WJAudioRecorderController.m in Sources */,
+				A001C0A221EEFC8B00C3808C /* main.m in Sources */,
+				A001C09421EEFC8A00C3808C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A001C09821EEFC8A00C3808C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A001C09921EEFC8A00C3808C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A001C09D21EEFC8B00C3808C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A001C09E21EEFC8B00C3808C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A001C0A321EEFC8B00C3808C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A001C0A421EEFC8B00C3808C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A001C0A621EEFC8B00C3808C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYRQW4PVF4;
+				INFOPLIST_FILE = WJAudioRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangjie.www.WJAudioRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A001C0A721EEFC8B00C3808C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYRQW4PVF4;
+				INFOPLIST_FILE = WJAudioRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangjie.www.WJAudioRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A001C08A21EEFC8A00C3808C /* Build configuration list for PBXProject "WJAudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001C0A321EEFC8B00C3808C /* Debug */,
+				A001C0A421EEFC8B00C3808C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A001C0A521EEFC8B00C3808C /* Build configuration list for PBXNativeTarget "WJAudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001C0A621EEFC8B00C3808C /* Debug */,
+				A001C0A721EEFC8B00C3808C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A001C08721EEFC8A00C3808C /* Project object */;
+}
